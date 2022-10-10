@@ -1,14 +1,15 @@
 body{
     margin:0;
     text-align:center;
-    background: linear-gradient(blue,black);
-    color:#ffffff;
+    background:white;
+    color:#1D3557;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #tn{
     padding: 5px 10px;
     border-radius: 20px;
-    background-color: brown;
+    background-color: #1D3557;
     margin-bottom: 10px;
 }
 
@@ -19,12 +20,15 @@ body{
     align-items: center;
     background-image: url(images/tn.jpg);
     background-size: cover;
-    height: 40vh;
+    height: 60vh;
+    color:white;
 }
 
 .second{
+    padding-top:20px;
     display:flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .round-img{
@@ -51,14 +55,38 @@ body{
     margin-top: 0px;
     width: 400px;
     padding: 5px 10px;
-    background-color: purple;
+    background-color: #457B9D;
     border-radius: 10px;
 }
 
+.back{
+    background:#F1FAEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .second-sub:hover{
-    background:linear-gradient(skyblue,black);
+    background:linear-gradient(#CCFF33, #D8E2DC);
 }
 
 .sub2{
     margin-bottom: 10px;
+}
+
+.guide{
+    background: white;
+    display:flex;
+    width: 400px;
+    margin: 60px auto;
+    padding:20px;
+    background-color: #A8DADC;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 20px;
+
+}
+
+.chan{
+    width: 150px;
 }
